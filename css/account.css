@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(images/background_1.jpg);
+    background-color: whitesmoke;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,6 +27,40 @@ header{
 
 main{
     margin: 50px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+section form{
+    border-style: solid;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+section form input{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#btn{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+.cbx{
+    font-size: 16px;
 }
 
 footer{
